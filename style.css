@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1b1f38, #283593);
+    text-align: center;
+    color: white;
+    transition: background 0.5s ease-in-out;
+}
+
+/* Login Box */
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Book Grid */
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 20px;
+    
+}
+
+/* Individual Book Box */
+.book {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.book h2 {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.book h3 {
+    color: #1565c0;
+}
+
+.book:hover {
+    transform: scale(1.05);
+    background: #ffebb2;
+}
+
+/* Search & Category Section */
+.search-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+
+
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1b1f38, #283593);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Stylish Login Box */
+.login-container {
+    width: 350px;
+    padding: 30px;
+    background: white;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.login-container:hover {
+    transform: scale(1.02);
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Stylish Button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #283593;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #1a237e;
+}
+
+/* Login Message */
+#login-message {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
